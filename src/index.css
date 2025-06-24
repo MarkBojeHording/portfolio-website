@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f9fafb;
+    color: #222;
+    line-height: 1.6;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-500 hover:bg-primary-600 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+
+  .social-icon {
+    @apply w-6 h-6 text-gray-600 hover:text-primary-500 transition-colors duration-200;
+  }
+
+  .tech-tag {
+    @apply inline-flex items-center px-3 py-1.5 rounded-full text-xs font-medium mr-2 mb-2 transition-all duration-200 border;
+  }
+
+  .tech-tag-react {
+    @apply bg-blue-50 text-blue-700 border-blue-200 hover:bg-blue-100;
+  }
+
+  .tech-tag-typescript {
+    @apply bg-blue-50 text-blue-700 border-blue-200 hover:bg-blue-100;
+  }
+
+  .tech-tag-vite {
+    @apply bg-purple-50 text-purple-700 border-purple-200 hover:bg-purple-100;
+  }
+
+  .tech-tag-tailwind {
+    @apply bg-cyan-50 text-cyan-700 border-cyan-200 hover:bg-cyan-100;
+  }
+
+  .tech-tag-node {
+    @apply bg-green-50 text-green-700 border-green-200 hover:bg-green-100;
+  }
+
+  .tech-tag-mongodb {
+    @apply bg-emerald-50 text-emerald-700 border-emerald-200 hover:bg-emerald-100;
+  }
+
+  .tech-tag-firebase {
+    @apply bg-orange-50 text-orange-700 border-orange-200 hover:bg-orange-100;
+  }
+
+  .tech-tag-nextjs {
+    @apply bg-gray-50 text-gray-700 border-gray-200 hover:bg-gray-100;
+  }
+
+  .tech-tag-stripe {
+    @apply bg-indigo-50 text-indigo-700 border-indigo-200 hover:bg-indigo-100;
+  }
+
+  .tech-tag-postgresql {
+    @apply bg-blue-50 text-blue-700 border-blue-200 hover:bg-blue-100;
+  }
+
+  .tech-tag-d3 {
+    @apply bg-yellow-50 text-yellow-700 border-yellow-200 hover:bg-yellow-100;
+  }
+
+  .tech-tag-aws {
+    @apply bg-orange-50 text-orange-700 border-orange-200 hover:bg-orange-100;
+  }
+
+  .tech-tag-framer {
+    @apply bg-pink-50 text-pink-700 border-pink-200 hover:bg-pink-100;
+  }
+
+  .tech-tag-ai-chatbot {
+    @apply bg-emerald-50 text-emerald-700 border-emerald-200 hover:bg-emerald-100;
+  }
+
+  .tech-tag-php {
+    @apply bg-purple-50 text-purple-700 border-purple-200 hover:bg-purple-100;
+  }
+
+  .tech-tag-default {
+    @apply bg-gray-50 text-gray-700 border-gray-200 hover:bg-gray-100;
+  }
+}
